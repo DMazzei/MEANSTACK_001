@@ -1,11 +1,16 @@
 {
     "name": "starter-node-angular",
     "main": "server.js",
-    "version": "1.0",
+    "version": "1.0.0",
+    "private": true,
     "dependencies": {
-        "express": "~4.5.1",
-        "mongoose": "~3.8.0",
-        "body-parser": "~1.4.2",
-        "method-override": "~2.0.2"
+        "express": "latest",
+        "mongoose": "latest",
+        "body-parser": "latest",
+        "method-override": "latest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DMazzei/MEANSTACK_001.git"
     }
 }
